@@ -1,0 +1,3 @@
+[submodule "fitness-locker"]
+	path = fitness-locker
+	url = https://github.com/agupta231/fitness-locker.git
