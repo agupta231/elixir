@@ -1,0 +1,10 @@
+version: "3"
+services:
+  fitness-locker:
+    build:
+      context: fitness-locker/bin
+    privileged: true
+    volumes:
+      - ./fitness-locker/src:/app:Z
+    ports:
+      - "5000:5000"
